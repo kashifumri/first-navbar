@@ -39,10 +39,17 @@
 
     
 }
+.ullist{
+    display:flex;
+    list-style-type: none;
+    font-family:sans-serif;
+}
 .links{
     color:grey;
     text-decoration:underline transparent ;
-    font-size:20px; 
+     margin: 25px;
+   
+    font-size:17px; 
    
  
 }
@@ -56,7 +63,7 @@ a:hover{
     
 }
 
-@media (max-width: 1017px){
+@media (max-width: 1039px){
     .imgspan{
     
         height:20em;
@@ -85,14 +92,19 @@ a:hover{
         
     } 
     .links{
+        line-height: 40px;
+    }
+    .ullist{
         color:grey;
         flex-direction:column; 
+        justify-content:right;
+        padding:0px 300px;  
     }
     
     .container{
         background-color:yellow ;
         padding-bottom:20px;
-        padding:0px 300px;  
+      
     }
     
    
